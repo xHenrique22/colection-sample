@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Felino_1 = require("./Felino");
+var Leao_1 = require("./Leao");
+var felino = new Felino_1.Felino();
+var leao = new Leao_1.Leao();
+felino.emitSound('Mroul');
+leao.emitSound('Roar');
+leao.caca('Javali');
+leao.caca('Zebra', 2);
+leao.caca('Girafa', 1, 'Mamífero');
